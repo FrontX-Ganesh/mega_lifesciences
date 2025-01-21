@@ -1,5 +1,6 @@
 import React from "react";
 import CompanyLogo from "@/public/images/Logo.png";
+import sideLogo from "@/public/images/image 9.png";
 import Link from "next/link";
 import Image from "next/image";
 import { Popover, PopoverButton, PopoverGroup } from "@headlessui/react";
@@ -20,7 +21,7 @@ const NavBar = () => {
               <div className="flex">
                 <Link href="/" className="-m-1.5 p-1.5">
                   <Image
-                    alt="componyLogo"
+                    alt="Compony Logo"
                     src={CompanyLogo}
                     className="h-20 w-auto"
                   />
@@ -55,11 +56,7 @@ const NavBar = () => {
               </div>
               <div className="text-[#1AABE3] text-xs">LOGIN IN</div>
               <div className="text-xs">By:</div>
-              <Image
-                alt="componyLogo"
-                src={CompanyLogo}
-                className="h-14 w-auto"
-              />
+              <Image alt="componyLogo" src={sideLogo} className="h-14 w-auto" />
             </div>
           </div>
         </nav>
