@@ -4,6 +4,7 @@ import HomePageHeading from "./_components/HomePageHeading";
 import PersonalizeCare from "./_components/PersonalizeCare";
 import Program from "./_components/Program";
 import ProgramInfo from "./_components/ProgramInfo";
+import Register from "./_components/Register";
 import Resources from "./_components/Resources";
 import YourJourney from "./_components/YourJourney";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Program />
       <ProgramInfo />
       <PersonalizeCare />
+      <Register />
     </>
   );
 }
