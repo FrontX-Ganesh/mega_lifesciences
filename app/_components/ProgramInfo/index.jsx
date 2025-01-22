@@ -14,25 +14,38 @@ const ProgramInfo = () => {
             Discover the perfect harmony of body, mind, and spirit through our
             transformative wellness program.
           </p>
-          <div className="flex gap-4 mb-5 flex-wrap">
-            {programs.map((ele) => (
-              <div className="flex-col">
+          <div className="flex flex-wrap gap-4 mb-5 justify-center">
+            {programs.map((ele, index) => (
+              <div
+                key={index}
+                className="flex flex-col w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:w-[18%] border border-gray-200 rounded-md shadow-sm"
+              >
                 <Image
-                  alt="Header Logo"
+                  alt="Program Logo"
                   src={ele.image}
-                  className="h-50 w-auto mb-2"
+                  className="w-full h-auto rounded-t-md object-cover"
                 />
-                <div className="p-3 border border-grey rounded-bl-md rounded-br-md">
-                    <div className="text-white bg-[#1AABE3] w-max px-2 py-1 mb-2">
+                <div className="p-3 bg-white">
+                  <div className="text-white bg-[#1AABE3] w-max px-2 py-1 mb-2 rounded">
                     {ele.online ? "Online" : "Offline"}
+                  </div>
+                  <div className="text-lg font-semibold mb-2">{ele.title}</div>
+                  <p className="text-sm md:text-base text-[#707070] mb-3">
+                    {ele.package}
+                  </p>
+                  {ele.learnMore && (
+                    <div
+                      className="text-[#1AABE3] underline cursor-pointer"
+                      style={{ textUnderlinePosition: "under" }}
+                    >
+                      LEARN MORE
                     </div>
-                    <div className="text-lg mb-2">{ele.title}</div>
-                    <p className="text-sm md:text-base text-[#707070] mb-3">{ele.package}</p>
-                    <div className="text-[#1AABE3] underline" style={{ textUnderlinePosition: 'under' }}>{ele.learnMore ? "LEARN MORE" : ""}</div>
+                  )}
                 </div>
               </div>
             ))}
           </div>
+
           <div className="text-center">
             <button className="bg-[#1AABE3] font-bold text-white rounded-md px-4 py-3">
               View all resources
