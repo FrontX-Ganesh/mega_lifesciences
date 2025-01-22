@@ -6,8 +6,8 @@ const HomePageHeading = () => {
     <>
       <section className="bg-cover bg-center py-20 p-4 bg-gradient-to-b from-[#158DBB] to-[#1AABE3]">
         <div className="max-w-[1350px] w-full mx-auto">
-          <div className="flex gap-4">
-            <div className="w-[48%] flex justify-center flex-col items-start">
+          <div className="flex sm:gap-4 flex-col sm:flex-row gap-8">
+            <div className="sm:w-[48%] w-full flex justify-center flex-col items-start">
               <h1 className="text-white text-5xl mb-10">
                 Empowering your healthiest potential at every stage of life
               </h1>
@@ -15,7 +15,7 @@ const HomePageHeading = () => {
                 About Us
               </button>
             </div>
-            <div className="w-[48%]">
+            <div className="sm:w-[48%] w-full">
               <Image
                 alt="Header Logo"
                 src={headingLogo}
