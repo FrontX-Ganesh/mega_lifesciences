@@ -15,7 +15,7 @@ const Resources = () => {
           <div className="flex gap-4 flex-wrap mb-6">
             {resources.map((reso) => (
               <div className="flex sm:w-[48%] w-full" key={reso.id}>
-                <div className="border border-blue-400 p-3 rounded-tl-md rounded-bl-md w-[70%]">
+                <div className="border border-[#BEE0EF] p-3 rounded-tl-md rounded-bl-md w-[70%]">
                   <div className="mb-2">{reso.title}</div>
                   <div className="flex">
                     {reso.subMenus.map((menu) => (
