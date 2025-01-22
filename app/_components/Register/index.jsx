@@ -4,7 +4,7 @@ const Register = () => {
   return (
     <>
       <section className="bg-white">
-        <div className="px-5 py-24 max-w-7xl mx-auto">
+        <div className="px-5 max-w-7xl mx-auto">
           <div className="flex flex-wrap">
             <div className="p-4  w-full sm:w-1/2">
               <div>Sign Up for Health Care Benefits Now</div>
