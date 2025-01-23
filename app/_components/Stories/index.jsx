@@ -23,7 +23,7 @@ const Stories = () => {
             </div>
           </div>
           <div className="w-full lg:w-[120%]">
-            <div className="flex flex-wrap gap-5 ">
+            {/* <div className="flex flex-wrap gap-5 ">
               {storiesInfo.map((story) =>
                 story.id === 1 ? (
                   <div
@@ -91,7 +91,7 @@ const Stories = () => {
                     </div>
                   )
               )}
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
