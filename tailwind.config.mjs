@@ -11,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        "gradient-bg": "linear-gradient(to right, transparent 0%, red 50%, white 100%)",
+      }
     },
   },
   plugins: [],
