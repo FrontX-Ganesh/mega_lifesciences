@@ -1,4 +1,5 @@
 import story from "@/public/images/story.png"
+import storyVideo from "@/public/images/story-video.png"
 
 export const storiesInfo = [
     {
@@ -10,10 +11,9 @@ export const storiesInfo = [
     },
     {
         id: 2,
-        title: "“So, planet based was delicious and it exceeded my expectations.”",
         writer: "Phatthanan",
         jobTitle: "Job title",
-        image: story,
+        image: storyVideo,
     },
     {
         id: 3,

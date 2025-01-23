@@ -14,9 +14,9 @@ const Footer = () => {
               </p>
             ))}
           </div>
-          <div className="md:w-[40%] flex gap-2">
+          <div className="md:w-[40%] w-full flex gap-2">
             <div className="w-[48%]">
-              <p className="mb-4 w-[480%] text-xs md:text-sm text-[#1AABE3]">
+              <p className="mb-4 text-xs md:text-sm text-[#1AABE3]">
                 Resources
               </p>
               {resources.map((resource) => (

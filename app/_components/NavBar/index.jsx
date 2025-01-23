@@ -11,10 +11,10 @@ import { header_data } from "./navbar.constatnts";
 const NavBar = () => {
   return (
     <div className="my-0 w-full z-[99]">
-      <header className="bg-white">
+      <header className="bg-white max-w-[1200px] mx-auto">
         <nav
           aria-label="Global"
-          className="h-28 mx-auto py-3 px-24 max-1240px:p-4 max-[1520px]:px-8"
+          className="h-28 mx-auto py-3  max-1240px:p-4 "
         >
           <div className=" flex items-center justify-between">
             <div className="flex gap-4">

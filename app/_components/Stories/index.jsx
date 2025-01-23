@@ -4,8 +4,8 @@ import { storiesInfo } from "./stories.constants";
 const Stories = () => {
   return (
     <>
-      <section className="bg-gradient-to-b from-[#6CC9ED] to-[#158DBB] text-white">
-        <div className="px-5 py-24 max-w-7xl mx-auto">
+      <section className="text-white">
+        <div className="px-5 py-24 max-w-[1200px] mx-auto bg-gradient-to-b from-[#6CC9ED] to-[#158DBB] rounded-2xl">
           <div className="flex flex-wrap justify-between">
             <div>
               <h3 className="lg:text-5xl md:text-4xl sm:text-3xl text-[24px] font-bold mb-4">
@@ -22,12 +22,12 @@ const Stories = () => {
               </button>
             </div>
           </div>
-          <div className="w-full lg:w-[120%]">
-            {/* <div className="flex flex-wrap gap-5 ">
+          {/* <div className="w-full">
+            <div className="flex gap-5 items-start">
               {storiesInfo.map((story) =>
                 story.id === 1 ? (
                   <div
-                    className="bg-gradient-to-b from-white to-[#BFE8F7] p-4 py-8 w-[28%] h-[380px] rounded-lg bg-white text-black flex flex-col justify-between"
+                    className="bg-gradient-to-b shrink-0 from-white to-[#BFE8F7] h-[400px] p-4 py-8 max-w-[425px] w-full rounded-lg bg-white text-black flex flex-col justify-between"
                     key={story.id}
                   >
                     <div>
@@ -49,7 +49,7 @@ const Stories = () => {
                   </div>
                 ) : story.id === 4 ? (
                   <div
-                    className="bg-gradient-to-b from-white to-[#BFE8F7] p-4 w-[22%] h-[280px] rounded-lg bg-white text-black relative"
+                    className="bg-gradient-to-b shrink-0 from-white h-[300px] to-[#BFE8F7] p-4 max-w-[276px] w-full rounded-lg bg-white text-black relative"
                     key={story.id}
                   >
                     <div
@@ -73,7 +73,7 @@ const Stories = () => {
                   </div>
                 ) : (
                     <div
-                      className="bg-gradient-to-b from-white to-[#BFE8F7] p-4 w-[22%] h-[280px] rounded-lg bg-white text-black"
+                      className="bg-gradient-to-b from-white h-[300px] shrink-0 to-[#BFE8F7] p-4 max-w-[276px] w-full rounded-lg bg-white text-black"
                       key={story.id}
                     >
                       <Image
@@ -91,8 +91,8 @@ const Stories = () => {
                     </div>
                   )
               )}
-            </div> */}
-          </div>
+            </div>
+          </div> */}
         </div>
       </section>
     </>
