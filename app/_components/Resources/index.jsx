@@ -28,7 +28,7 @@ const Resources = () => {
                   </div>
                 </div>
                 <div className="w-[30%]">
-                  <Image src={reso.image} className="h-full w-auto rounded-tr-md rounded-br-md" />
+                  <Image alt="Resources image" src={reso.image} className="h-full w-auto rounded-tr-md rounded-br-md" />
                 </div>
               </div>
             ))}

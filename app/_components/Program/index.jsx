@@ -26,6 +26,7 @@ const Program = () => {
           </div>
           <div className="w-full sm:w-[33%]">
             <Image
+              alt="Program"
               src={program}
               className="h-full w-full rounded-tr-md rounded-br-md p-5"
             />
