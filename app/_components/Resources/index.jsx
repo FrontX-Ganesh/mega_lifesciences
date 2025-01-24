@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import yoga from "@/public/images/yoga.png";
 import { resources } from "./resources.constants";
 
 const Resources = () => {
@@ -8,13 +7,13 @@ const Resources = () => {
     <>
       <section className="bg-white">
         <div className="px-5 py-24 max-w-7xl mx-auto">
-          <h3 className="lg:text-5xl md:text-4xl sm:text-3xl text-[24px] font-bold mb-4">
+          <h3 className="lg:text-5xl md:text-4xl sm:text-3xl text-[24px] mb-4">
             Resources
           </h3>
 
           <div className="flex gap-4 flex-wrap mb-6">
             {resources.map((reso) => (
-              <div className="flex sm:w-[48%] w-full" key={reso.id}>
+              <div className="flex sm:w-[48%] w-full h-[123px]" key={reso.id}>
                 <div className="border border-[#BEE0EF] p-3 rounded-tl-md rounded-bl-md w-[70%]">
                   <div className="mb-2">{reso.title}</div>
                   <div className="flex">

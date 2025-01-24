@@ -31,7 +31,7 @@ const Categories = () => {
           ))}
         </div>
         <div className="text-center">
-          <button className="bg-white text-black rounded-md px-4 py-3">
+          <button className="bg-white text-black rounded-md px-4 py-3 font-bold">
             View all resources
           </button>
         </div>

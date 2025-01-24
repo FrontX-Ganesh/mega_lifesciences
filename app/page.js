@@ -17,8 +17,8 @@ export default function Home() {
       <YourJourney />
       <Resources />
       <Experts />
-      <Program />
       <ProgramInfo />
+      <Program />
       <PersonalizeCare />
       <Stories />
       <Register />

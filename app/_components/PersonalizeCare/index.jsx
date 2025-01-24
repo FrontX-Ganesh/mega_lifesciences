@@ -8,7 +8,7 @@ const PersonalizeCare = () => {
       <section className="bg-white">
         <div className="px-5 py-24 max-w-7xl mx-auto">
           <div className="flex sm:flex-row flex-col mb-5">
-            <div className="w-full sm:w-[48%]">
+            <div className="w-full sm:w-[48%] mb-20">
               <h3 className="lg:text-5xl md:text-4xl sm:text-3xl text-[24px] mb-4">
                 Leading the Way in
                 <br />

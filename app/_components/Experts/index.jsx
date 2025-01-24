@@ -28,8 +28,8 @@ const Experts = () => {
                       className="h-15 w-15 text-secondary group-hover:text-white"
                     />
                   </div>
-                  <div>
-                    <p className="px-3 text-black">{expert.name}</p>
+                  <div className="flex flex-col justify-center">
+                    <p className="px-3 text-black whitespace-nowrap">{expert.name}</p>
                     <p className="px-3 text-sm text-[#1AABE3]">
                       {expert.designation}
                     </p>

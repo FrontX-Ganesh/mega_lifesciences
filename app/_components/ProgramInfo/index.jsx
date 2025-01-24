@@ -6,7 +6,7 @@ const ProgramInfo = () => {
   return (
     <>
       <section className="bg-white">
-        <div className="px-5 max-w-7xl mx-auto">
+        <div className="px-5 max-w-7xl mx-auto pt-20">
           <h3 className="lg:text-5xl md:text-4xl sm:text-3xl text-[24px] mb-4">
             Our <span className="text-[#1AABE3]">Programs</span>
           </h3>
