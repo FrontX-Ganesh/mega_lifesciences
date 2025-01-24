@@ -9,7 +9,7 @@ import {
 } from "@headlessui/react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaSearch, FaBars, FaTimes } from "react-icons/fa";
+import { FaSearch, FaBars } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa6";
 import { header_data } from "./navbar.constatnts";
 
@@ -69,6 +69,11 @@ const NavBar = () => {
             </div>
 
             <div className="lg:hidden">
+            <button
+                className="text-xl p-2 focus:outline-none"
+              >
+                <FaSearch />
+              </button>
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="text-xl p-2 focus:outline-none"
