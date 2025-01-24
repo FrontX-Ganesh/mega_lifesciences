@@ -2,11 +2,7 @@
 import { useState } from "react";
 import CompanyLogo from "@/public/images/Logo.png";
 import sideLogo from "@/public/images/image 9.png";
-import {
-  Popover,
-  PopoverButton,
-  PopoverGroup,
-} from "@headlessui/react";
+import { Popover, PopoverButton, PopoverGroup } from "@headlessui/react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaSearch, FaBars } from "react-icons/fa";
@@ -21,7 +17,6 @@ const NavBar = () => {
       <header className="bg-white max-w-[1200px] mx-auto">
         <nav aria-label="Global" className="h-28 mx-auto p-4 ">
           <div className="flex items-center justify-between">
-
             <div className="flex gap-4 items-center">
               <Link href="/" className="-m-1.5 p-1.5">
                 <Image
@@ -48,7 +43,6 @@ const NavBar = () => {
               </div>
             </div>
 
-
             <div className="hidden lg:flex gap-4 items-center">
               <FaSearch className="h-9" />
               <PopoverGroup className="flex items-center gap-x-2">
@@ -61,17 +55,11 @@ const NavBar = () => {
               </PopoverGroup>
               <div className="text-[#1AABE3] text-xs">LOGIN IN</div>
               <div className="text-xs">By:</div>
-              <Image
-                alt="Side Logo"
-                src={sideLogo}
-                className="h-14 w-auto"
-              />
+              <Image alt="Side Logo" src={sideLogo} className="h-14 w-auto" />
             </div>
 
             <div className="lg:hidden">
-            <button
-                className="text-xl p-2 focus:outline-none"
-              >
+              <button className="text-xl p-2 focus:outline-none">
                 <FaSearch />
               </button>
               <button
@@ -82,7 +70,6 @@ const NavBar = () => {
               </button>
             </div>
           </div>
-
         </nav>
       </header>
     </div>
